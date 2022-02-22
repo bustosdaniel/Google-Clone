@@ -1,0 +1,86 @@
+body {
+  background-color: rgb(183, 225, 228);
+  font-family: "Kalam", cursive;
+  font-family: "Nunito", sans-serif;
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+figure,
+ul {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+}
+nav {
+  display: flex;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header {
+  height: 60px;
+}
+.search {
+  height: calc(100vh - 120px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.search-logo {
+  width: 100%;
+  text-align: center;
+}
+.search-logo input {
+  width: 40%;
+  margin: 0 auto;
+  border-radius: 50px;
+  border: 1px solid gainsboro;
+  height: 28px;
+}
+.search img {
+  width: 360px;
+  cursor: pointer;
+}
+.list {
+  width: 100%;
+}
+.list a {
+  padding: 10px;
+}
+.footer {
+  height: 60px;
+}
+.footer-list li a {
+  padding: 10px;
+}
+.button-container {
+  margin: 36px;
+}
+button {
+  margin-right: 50px;
+  margin-left: 50px;
+  height: 38px;
+  border: none;
+  border-radius: 8px;
+  border: 1px solid whitesmoke;
+  cursor: pointer;
+}
